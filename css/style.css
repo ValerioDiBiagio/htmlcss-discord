@@ -139,21 +139,20 @@ main > section {
 
 .rowbig {
     display: flex;
-    width: 700px;
+    width: 800px;
     padding-bottom: 50px;
 }
 
 .rowsmall {
     text-align:initial;
     width: 250px;
+    
 }
 
 h2 {
     font-size: 30px;
     padding-bottom: 20px;
 }
-
-
 
 .bg-gray .rowsmall {
     order: -1;
