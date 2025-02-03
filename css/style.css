@@ -4,12 +4,13 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* intestazione */
 
 header {
-    background-color:#add8e6;
+    background-color:#255ee9;
     padding-top: 17px;
     padding-bottom: 17px;
 }
@@ -23,28 +24,36 @@ header {
     display: flex;
 }
 
-.nav-item-link {
+.menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    color: #ffffff;
+    align-items: center;
     flex-grow: 2;
-    text-align: center;
-    border: 2px dashed black;
-    padding: 10px;
+    font-size: 18px;
 }
 
 .nav-item-logo {
     flex-grow: 1;
     padding: 10px;
-    border: 2px dashed black
 }
 
 .nav-item-login {
     flex-grow: 1;
     padding: 10px;
     text-align: end;
-    border: 2px dashed black
 }
 
+.buttonsmall {
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+
 header .fcontainer {
-    background-color: #daa520;
+    background-color: #255ee9;
 }
 
 /* main */
@@ -72,7 +81,7 @@ main > section {
 }
 
 /* DA RIMUOVERE */
- 
+
  .debug .row {
     height: 500px;
 }
@@ -156,7 +165,7 @@ hr {
 button {
     background-color: #ffb6c1;
     padding: 5px;
-    border: 2px dashed #000000;
+    /* border: 2px dashed #000000; */
 
 }
 
