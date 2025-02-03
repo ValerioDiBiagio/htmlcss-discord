@@ -1,0 +1,172 @@
+/* reset */
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* intestazione */
+
+header {
+    background-color:#add8e6;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+
+/* menu navigazione */
+
+.fcontainer {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.nav-item-link {
+    flex-grow: 2;
+    text-align: center;
+    border: 2px dashed black;
+    padding: 10px;
+}
+
+.nav-item-logo {
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px dashed black
+}
+
+.nav-item-login {
+    flex-grow: 1;
+    padding: 10px;
+    text-align: end;
+    border: 2px dashed black
+}
+
+header .fcontainer {
+    background-color: #daa520;
+}
+
+/* main */
+
+.bg-blue {
+    background-color:#00008b;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.bg-gray {
+    background-color: #d3d3d3;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+main > section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* DA RIMUOVERE */
+ 
+ .debug .row {
+    height: 500px;
+}
+
+/* Sezioni main */
+
+.bg-blue > .container {
+    width: 910px;
+    border: 2px dashed black;
+}
+
+.bg-blue .container .row {
+    background-color: #ee82ee;
+}
+
+.rowbig {
+    width: 700px;
+    background-color: #1e90ff;
+    border: 2px dashed black;
+}
+
+.rowsmall {
+    width: 400px;
+    background-color: #ffc0cb;
+    border: 2px dashed #000000;
+}
+
+.bg-gray .rowsmall {
+    order: -1;
+}
+
+/* bigrow */
+
+.row2 {
+    height: 900px;
+    width: 1100px;
+    background-color: #228b22;
+    border: 2px dashed #000000;
+}
+
+/* Footer */
+
+/* prima parte footer */
+
+
+.first {
+    height: 580px;
+    width: 300px;
+    background-color: #f08080;
+    border: 2px dashed #000000;
+}
+
+.second {
+    height: 580px;
+    width: 800px;
+    background-color: #20b2aa;
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+    width: 200px;
+    border: 2px dashed #ffffff;
+}
+
+/* seconda parte footer */
+
+.bg-darkgray {
+    background-color: #23272a;
+}
+
+.bg-darkgray  .fcontainer {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+hr {
+    color: #9a9a9a;
+}
+
+button {
+    background-color: #ffb6c1;
+    padding: 5px;
+    border: 2px dashed #000000;
+
+}
+
+.container2 .footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    background-color: #7fffd4;
+}
+
+.container2 {
+    padding-top: 20px;
+}
