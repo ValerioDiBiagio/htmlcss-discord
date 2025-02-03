@@ -69,18 +69,20 @@ header .fcontainer {
 }
 
 h1 {
-   text-align: center;
+    text-align: center;
    padding-bottom: 20px;
    font-size: 50px;
    color: #ffffff;
 }
 
 p {
+    display: flex;
     text-align: center;
     color: #ffffff;
     padding-left: 55px;
     padding-right: 55px;
     font-size: 25px;
+    line-height: 150%;
     }
     
 
