@@ -64,7 +64,7 @@ header .fcontainer {
 }
 
 .row {
-    align-items: center;
+    text-align: center;
     padding-top: 100px;
 }
 
@@ -85,6 +85,24 @@ p {
     line-height: 150%;
     }
     
+
+.bottonemac {
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+.bottonediscord {
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: #23272a;
+    color: #ffffff;
+}
+
+
 
 .bg-white {
     background-color: #ffffff;
@@ -184,12 +202,12 @@ hr {
     color: #9a9a9a;
 }
 
-button {
+/* button {
     background-color: #ffb6c1;
     padding: 5px;
     /* border: 2px dashed #000000; */
 
-}
+} */
 
 .container2 .footer {
     padding-top: 20px;
