@@ -75,7 +75,7 @@ h1 {
    color: #ffffff;
 }
 
-p {
+.pfirst {
     display: flex;
     text-align: center;
     color: #ffffff;
@@ -88,6 +88,7 @@ p {
 
 .bottonemac {
     margin-top: 50px;
+    margin-right: 20px;
     border-radius: 20px;
     padding: 10px 15px;
     font-size: 20px;
@@ -133,21 +134,26 @@ main > section {
 
 .bg-blue > .container {
     width: 980px;
-   
 }
 
 
 .rowbig {
+    display: flex;
     width: 700px;
-    background-color: #1e90ff;
-    border: 2px dashed black;
+    padding-bottom: 50px;
 }
 
 .rowsmall {
-    width: 400px;
-    background-color: #ffc0cb;
-    border: 2px dashed #000000;
+    text-align:initial;
+    width: 250px;
 }
+
+h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+
 
 .bg-gray .rowsmall {
     order: -1;
@@ -205,8 +211,7 @@ hr {
 /* button {
     background-color: #ffb6c1;
     padding: 5px;
-    /* border: 2px dashed #000000; */
-
+    /* border: 2px dashed #000000; 
 } */
 
 .container2 .footer {
