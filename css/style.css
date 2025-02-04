@@ -207,8 +207,13 @@ h2 {
     padding-top: 65px;
  }
 
-h3 {
-    color: #7288da;
+#backg {
+    padding-top: 40px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position: center;
+    font-size: 25px;
 }
 
 .second {
@@ -257,7 +262,11 @@ span {
 
 .bg-darkgray  .fcontainer {
     padding-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
+}
+
+.h3footer {
+    color: #7288da;
 }
 
 .registrati {
